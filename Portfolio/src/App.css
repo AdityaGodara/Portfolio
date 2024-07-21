@@ -187,10 +187,10 @@
     font-size: 20vw;
   }
   .skills-head{
-    font-size: 10vh;
+    font-size: 8vh;
   }
   .exp-head{
-    font-size: 10vh;
+    font-size: 8vh;
   }
   .work-skill{
     width: 60%;
@@ -215,7 +215,7 @@
     width: 45%;
   }
   .exp-head{
-    font-size: 10vh;
+    font-size: 8vh;
   }
 }
 @media (max-width: 1000px){
