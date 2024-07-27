@@ -22,10 +22,6 @@ const BrandHover = () => {
                 alternate_email
             </span> : adityagodara03@gmail.com</p>
 
-            <p><span class="material-symbols-outlined text-sm mt-2">
-                call
-            </span> : +91 8287338801</p>
-
         </div>
     )
 }
