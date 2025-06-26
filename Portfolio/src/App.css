@@ -146,7 +146,7 @@
 }
 
 .work-skill, .extra-skill{
-  width: 50%;
+  width: 100%;
 }
 
 
@@ -197,6 +197,9 @@
   }
   .extra-skill{
     width: 40%;
+  }
+  .skills-section{
+    display: block;
   }
 }
 

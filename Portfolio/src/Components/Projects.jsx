@@ -14,12 +14,23 @@ const Projects = () => {
           </h1>
         </div>
         <div className='card-container'>
+
+          <ProjectCardComp
+            name="KindConnect"
+            desc="A volunteer-event matchmaking and community platform"
+            skills="React | Firebase | Firestore"
+            img="kindconnect.png"
+            link="https://github.com/AdityaGodara/Kind-Connect"
+            host="https://kind-connect-adeac.web.app/"
+          />
+
           <ProjectCardComp
             name="BlabSpace (MERN)"
             desc="Blab Space is a dynamic text-based social platform where you can join or create Spaces/Groups centered around your interests"
             skills="React | Express | MongoDB"
             img="Blabspace.png"
             link="https://github.com/AdityaGodara/BlabSpace---Mern-App"
+            host="https://blabspace.onrender.com"
           />
 
           <ProjectCardComp
@@ -36,6 +47,7 @@ const Projects = () => {
             skills="HTML | CSS | JavaScript"
             img="MarsCravings.png"
             link="https://github.com/AdityaGodara/Mars-Cravings-Outer-Space-Food-Delivery"
+            host="https://adityagodara.github.io/Mars-Cravings-Outer-Space-Food-Delivery/"
           />
         </div>
       </div>

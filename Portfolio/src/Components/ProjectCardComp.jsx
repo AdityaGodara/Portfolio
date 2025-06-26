@@ -12,7 +12,8 @@ const ProjectCardComp = (props) => {
             <p class="card-content">
               {props.desc}
             </p>
-            <span class="see-more">{props.skills}</span>
+            <span class="see-more">{props.skills}</span><br/>
+            <span class="see-more"><a href={props.host} target="_blank">{props.host? props.host: "Not hosted yet"}</a></span>
           </div>
           <div class="date-box">
             <span class="month"><img src={`/Images/Projects/${props.img}`} alt="" className="proj-img" /></span>

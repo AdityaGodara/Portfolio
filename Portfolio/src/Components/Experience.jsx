@@ -14,6 +14,23 @@ const Experience = () => {
                     </h1>
                 </div>
                 <div className='exp-card-container'>
+
+                    <ExpCardComp
+                        title="Data Analyst / BI Intern"
+                        img="cliqvenus.png"
+                        date="November 2024 - October 2025"
+                        desc="Lead the dramatics club of Delhi Technical Campus as President."
+                        link="https://www.linkedin.com/in/aditya-godara-b858751ab/details/experience/"
+                    />
+
+                    <ExpCardComp
+                        title="President"
+                        img="Aavansh_exp.png"
+                        date="November 2024 - October 2025"
+                        desc="Lead the dramatics club of Delhi Technical Campus as President."
+                        link="https://www.linkedin.com/in/aditya-godara-b858751ab/details/experience/"
+                    />
+
                     <ExpCardComp
                         title="3D Designer"
                         img="Heimatverse.jpg"
@@ -25,7 +42,7 @@ const Experience = () => {
                     <ExpCardComp
                         title="Social Media Manager"
                         img="Aavansh_exp.png"
-                        date="Oct 2023 - Present"
+                        date="Oct 2023 - November 2024"
                         desc="Managing social media for the organization."
                         link="https://www.linkedin.com/in/aditya-godara-b858751ab/details/experience/"
                     />

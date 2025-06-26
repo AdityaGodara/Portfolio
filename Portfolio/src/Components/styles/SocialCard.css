@@ -28,7 +28,7 @@
   }
   /* twitter*/
   .containerTwo:hover {
-    background-color: #00acee;
+    background-color: #434242;
     transition-duration: .3s;
   }
   /* linkdin*/
@@ -54,7 +54,9 @@
   .socialSvg path {
     fill: rgb(255, 255, 255);
   }
-  
+  .containerTwo:hover img{
+    animation: slide-in-top .3s both;
+  }
   .socialContainer:hover .socialSvg {
     animation: slide-in-top 0.3s both;
   }
